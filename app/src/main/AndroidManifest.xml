@@ -20,7 +20,14 @@
             android:name=".AdjacentActivity"
             android:exported="false"
             android:launchMode="singleInstance"
-            android:taskAffinity="" />
+            android:resizeableActivity="true"
+            android:taskAffinity="">
+            <layout
+                android:minWidth="500dp"
+                android:minHeight="500dp">
+
+            </layout>
+        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true"
