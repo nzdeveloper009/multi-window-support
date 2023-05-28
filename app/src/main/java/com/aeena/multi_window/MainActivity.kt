@@ -19,5 +19,9 @@ class MainActivity : AppCompatActivity() {
         binding.launchConfigChangeBtn.setOnClickListener {
             ConfigChangeActivity.start(this)
         }
+
+        binding.launchPictureInPictureBtn.setOnClickListener {
+            PictureInPictureActivity.start(this)
+        }
     }
 }

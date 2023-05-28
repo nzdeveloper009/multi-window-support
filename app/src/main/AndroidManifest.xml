@@ -13,6 +13,10 @@
         android:theme="@style/Theme.MultiWindow"
         tools:targetApi="31">
         <activity
+            android:name=".PictureInPictureActivity"
+            android:supportsPictureInPicture="true"
+            android:exported="false" />
+        <activity
             android:name=".ConfigChangeActivity"
             android:configChanges="screenSize|orientation"
             android:exported="false" />
@@ -24,9 +28,7 @@
             android:taskAffinity="">
             <layout
                 android:minWidth="500dp"
-                android:minHeight="500dp">
-
-            </layout>
+                android:minHeight="500dp" />
         </activity>
         <activity
             android:name=".MainActivity"

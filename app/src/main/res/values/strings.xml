@@ -4,4 +4,6 @@
     <string name="this_is_adjacent_activity">This is Adjacent Activity</string>
     <string name="this_is_config_change_activity">This is Config Change Activity</string>
     <string name="launch_config_change_activity">Launch Config Change Activity</string>
+    <string name="picture_in_picture_activity">Picture In Picture Activity</string>
+    <string name="enter_picture_in_picture_mode">Enter Picture In Picture Mode</string>
 </resources>
