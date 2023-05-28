@@ -12,8 +12,12 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.launchBtn.setOnClickListener {
+        binding.launchAdjacentActivityBtn.setOnClickListener {
             AdjacentActivity.start(this)
+        }
+
+        binding.launchConfigChangeBtn.setOnClickListener {
+            ConfigChangeActivity.start(this)
         }
     }
 }

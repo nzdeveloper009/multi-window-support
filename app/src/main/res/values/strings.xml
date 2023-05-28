@@ -2,4 +2,6 @@
     <string name="app_name">Multi-Window</string>
     <string name="launch_adjacent_activity">Launch Adjacent Activity</string>
     <string name="this_is_adjacent_activity">This is Adjacent Activity</string>
+    <string name="this_is_config_change_activity">This is Config Change Activity</string>
+    <string name="launch_config_change_activity">Launch Config Change Activity</string>
 </resources>

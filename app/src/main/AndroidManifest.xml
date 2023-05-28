@@ -13,6 +13,10 @@
         android:theme="@style/Theme.MultiWindow"
         tools:targetApi="31">
         <activity
+            android:name=".ConfigChangeActivity"
+            android:configChanges="screenSize|orientation"
+            android:exported="false" />
+        <activity
             android:name=".AdjacentActivity"
             android:exported="false"
             android:launchMode="singleInstance"
